@@ -1,6 +1,14 @@
 * {
     font-family: Helvetica;
+    margin: 0;
+    padding: 0;
 }
+
+
+h2 {
+    font-family: 'Dancing Script', cursive;   }
+    
+
 
 
 #logo {
@@ -20,7 +28,7 @@
 }
 
 #title-subtitle {
-    color: rgb(201, 0, 0);
+    color: rgb(180, 177, 9);
     margin: 0px;
     text-align: center;
 }
@@ -29,11 +37,11 @@
     display:flex;
     flex-direction: column;
     position: relative;
-    height: 50px;
+    height: 40px;
     justify-content: space-around;
     align-content: center;
     padding-left: 30px;
-    background-color:red;
+    background-color:rgb(240, 11, 60);
     margin: 2px;
 }
 
@@ -48,7 +56,7 @@ a:link {
 }
 
 a:visited {
-    text-decoration: none;
+    text-decoration: rgb(12, 238, 12);
 }
 
 a:hover {
@@ -60,34 +68,29 @@ a:active {
 }
 
 section {
-    height: 50vh;
+    padding: 20px 0;
 }
-
 .section-title {
     text-align: center;
-    color: gray;
+    color:gold;
     border-bottom: 1px gray solid;
     padding-bottom: 10px;
 }
 
-section img {
-    width: 80%;
-    max-width: 320px;
+#cv ul {
+    list-style-type: none;
+}
+
+
+#portfolio-pic {
+    width: 100%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 30px;
+    margin: 0 auto;
+    
 }
 
 #cvlink {
     font-weight: bold;
-}
-
-#bodylink {
-    display: block;
-    text-align: center;
-    font-weight: bold;
-
 }
 
 p {
@@ -115,21 +118,32 @@ h3.skilltitle {
 
 #line-two {
     height: 9px;
-    width: 30%;
+    width: 15%;
     background-color: red;
     border-radius: 9px;
 }
 
 #line-three {
     height: 9px;
-    width: 10%;
+    width: 5%;
     background-color: dodgerblue;
     border-radius: 9px;
 }
 
-.fab {
+footer i {
     margin: 3px 20px 3px 10px;
-    color: dodgerblue;
-    font-size: 38px;
-
+    color: yellowgreen;
+    font-size: 50px;
 }
+footer i:hover {
+    color: fuchsia;
+}
+
+    @media (min-width: 576px) { 
+        body {
+            background-color:lightseagreen;
+          }
+     }
+    @media (min-width: 768px) { }
+    @media (min-width: 992px) { }
+    @media (min-width: 1200px) { }
